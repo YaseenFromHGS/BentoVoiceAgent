@@ -8,6 +8,8 @@ from fastapi import FastAPI, WebSocket
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse
 
+somerandomvariable = "test1"
+
 LANGUAGE_CODE = "en"
 
 app = FastAPI()
